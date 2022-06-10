@@ -1,0 +1,56 @@
+div {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 70%;
+	background-color: rgb(255, 255, 173);
+	border: 1.5px solid;
+	border-radius: 5px;
+	padding: 30px;
+	margin-bottom: 10px;
+
+}
+
+div.block-active>h3 {
+	text-align: center;
+}
+
+.block-active {
+	background-color: rgb(182, 246, 246);
+}
+
+.text-right {
+	border: none;
+	background-color: rgb(182, 246, 246);
+	padding: 0;
+	width: 100%;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	border: 1px solid;
+	border-radius: 4px;
+	border-color: black;
+}
+
+div.block-active+div.block {
+	text-transform: uppercase;
+}
+
+div.block-active+div.block>h3 {
+	text-decoration: underline;
+	text-transform: none;
+}
+
+
+div.text-right>button {
+	display: block;
+	margin-left: auto;
+	background-color: rgb(115, 216, 115);
+	color: white;
+}
+
+.btn-submit {
+	background-color: rgb(115, 216, 115);
+	color: white;
+}
