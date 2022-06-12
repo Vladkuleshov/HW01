@@ -1,5 +1,4 @@
 div {
-	box-sizing: border-box;
 	margin: 0 auto;
 	width: 70%;
 	background-color: rgb(255, 255, 173);
@@ -23,11 +22,12 @@ div.block-active>h3 {
 	background-color: rgb(182, 246, 246);
 	padding: 0;
 	width: 100%;
+	text-align: right;
 }
 
 button {
-	width: 100px;
-	height: 30px;
+	padding: 10px 15px;
+	height: 40px;
 	border: 1px solid;
 	border-radius: 4px;
 	border-color: black;
@@ -44,8 +44,7 @@ div.block-active+div.block>h3 {
 
 
 div.text-right>button {
-	display: block;
-	margin-left: auto;
+	text-align: right;
 	background-color: rgb(115, 216, 115);
 	color: white;
 }
